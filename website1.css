@@ -1,0 +1,145 @@
+.banner-area{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image3.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.table2{
+    border: 0;
+    width: 60%;
+    margin-left: 20%;
+}
+.table1{
+    width: 80%;
+    color: rgb(8, 8, 8);
+    font-size: 18px;
+    padding: 20px;
+}
+.img1{
+    border-radius: 50%;
+}
+.second ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.box-container{
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box{
+    width: 250px;
+    margin:0 10px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,1);
+    transition: 1s;
+}
+.box img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+.box :hover{
+    transform:scale(1.3);
+    z-index: 2;
+}
+.nav1{
+    width: 420px;
+    height: auto;
+}
+.nav1:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.nav2{
+    color: rgb(45, 39, 51);
+    font-size: 80px;
+    margin-bottom:20px;
+}
+.nav3{
+    color: rgb(231, 22, 74);
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 40px;
+}
+.order{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(27, 21, 21);
+    text-align: center;
+}
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: beige;
+
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+p{
+    text-align: justify;
+}
+.container{
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.product{
+    width: 250px;
+    display: grid;
+    grid-template-columns:auto;
+    gap: 1rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: aliceblue;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,.1);
+    outline: 1rem solid aliceblue;
+    outline-offset: -1.5rem;
+    cursor: pointer;
+}
+.product:hover{
+    outline: 2rem solid rgb(241, 236, 236);
+    outline-offset: 0;
+}
+.product-img{
+    height: 25rem;
+}
+.contact{
+    background-color: burlywood;
+}
+footer{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    padding: 3px;
+    background-color: rgb(163, 153, 14);
+    color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+@media (max-width:1310px){
+    .banner-area{
+        width: 100%;
+    }
+}
+@media( max-width:1500px){
+
+}
